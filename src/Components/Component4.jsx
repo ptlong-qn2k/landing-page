@@ -7,7 +7,7 @@ const Component4 = () => {
                 {API2.map((data) => (
                     <div
                         key={data.id}
-                        className={`w-[271px] h-[181px] flex flex-col items-center justify-center ${data.id % 2 == 1 ? 'bg-white' : 'bg-[#2947A9]'}`}
+                        className={`w-[271px] h-[181px] flex flex-col items-center justify-center ${data.id % 2 == 1 ? 'bg-white' : 'bg-[#2947A9] w-[70%] h-[70%] self-center justify-self-center  '}`}
                     >
                         <img className="w-10 h-10 mb-5" src={data.url} alt="" />
                         <hr className="w-[60px] h-[2px] mb-5" />

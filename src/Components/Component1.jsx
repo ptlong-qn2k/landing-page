@@ -7,15 +7,25 @@ const Component1 = () => {
             <div className="w-[416px] h-[190px] bg-[#3559C7] z-10 absolute bottom-0 right-0 flex flex-col justify-between text-white ">
                 <div className="flex flex-col items-center px-[52px] pt-5">
                     <p className="text-xl font-bold mb-5 ">Feature Projects</p>
-                    <p className="text-2xl">The National University of Architecture</p>
+                    <p className="text-2xl">
+                        The National University of Architecture
+                    </p>
                 </div>
                 <div className="flex flex-row justify-between items-center gap-[1px] gap-white bg-white h-10">
                     <div className="w-[50%] bg-black flex flex-row items-center justify-center ">
-                        <img className="w-[26px] h-[17px]" src="./images/component1/left.png" alt="" />
+                        <img
+                            className="w-[26px] h-[17px]"
+                            src="./images/component1/left.png"
+                            alt=""
+                        />
                         <p>Back</p>
                     </div>
                     <div className="w-[50%] bg-black flex flex-row items-center justify-center ">
-                        <img className="w-[26px] h-[17px]" src="./images/component1/right.png" alt="" />
+                        <img
+                            className="w-[26px] h-[17px]"
+                            src="./images/component1/right.png"
+                            alt=""
+                        />
                         <p>Next</p>
                     </div>
                 </div>

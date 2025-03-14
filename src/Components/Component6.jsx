@@ -26,7 +26,7 @@ const Component6 = () => {
                     <div className="flex flex-col justify-between ">
                         <div className="grid grid-cols-2 gap-8 mb-8">
                             {API3.map((data) => (
-                                <div key={data.id} className="w-[384px]]">
+                                <div key={data.id} className="w-[384px]">
                                     <img src={data.url} alt="" className="w-full" />
                                     <div className="bg-[#2947A9] text-white p-3 pb-4">
                                         <h3 className="text-xl font-bold mb-3 leading-[23.46px]">{data.title}</h3>

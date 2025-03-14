@@ -1,9 +1,12 @@
 const Component7 = () => {
     return (
         <div className="bg-[#F6F8F7] w-full flex flex-col items-center py-[60px]">
-            <h3 className="font-bold text-4xl leading-[42.23px] text-[#292E3D] mb-5">What can us do for you?</h3>
+            <h3 className="font-bold text-4xl leading-[42.23px] text-[#292E3D] mb-5">
+                What can us do for you?
+            </h3>
             <p className="w-[539px] text-xl leading-[23.46px] text-[#292E3D] mb-[38px] text-center">
-                We are ready to work on a project of any complexity, whether it’s commercial or residential.
+                We are ready to work on a project of any complexity, whether
+                it’s commercial or residential.
             </p>
             <div className="grid grid-cols-2 gap-x-8 gap-y-5 justify-center mb-7">
                 <input
